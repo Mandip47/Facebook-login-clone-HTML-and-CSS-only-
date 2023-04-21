@@ -127,3 +127,7 @@ a#link:focus{
 .Create:hover{
   background-color: #46b030;
 }
+.Input:focus{
+  outline:none;
+  border-color:blue;
+}
