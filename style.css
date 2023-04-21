@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F2F5;
+}
+.main{
+  display:inline;
+}
+#logo{
+  color:blue;
+  width: 300px;
+}
+#paragraph{
+  position: relative;
+  display: inline-block;
+  margin-top: 16%;
+  margin-left: 10%;
+}
+.container {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+  height: 345px;
+  position: absolute;
+}
+p{
+  font-size:23px;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 393px;
+  height: 100px;
+  margin-left: 36px;
+  margin-top:-10px;
+}
+#Username,#Password{
+  margin-left: 16px;
+  margin-bottom:10px;
+width: 345px;
+height: 35px;
+}
+/* .LogIn{
+  margin-left: 20px;
+  margin-bottom:10px;
+width: 352px;
+height: 35px;
+} */
+a#link{
+  margin-left: 16px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 120px;
+  text-decoration:none;
+  font-family: 'Kanit', sans-serif;
+}
+/* button.Create{
+      margin-left: 20px;
+    margin-bottom: 10px;
+    width: 345px;
+    margin-top: 72px;
+    height: 35px;
+} */
+.Create {
+  background-color: #42b72a;
+  color: #fff;
+  margin-left:98px;
+  margin-top: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  width: 204px;
+  height: 44px;
+}
+.container{
+  /* display: flex; */
+      position: absolute;
+    margin-top: -284px;
+margin-left:60%;
+}
+.LogIn {
+  background-color: #1877f2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 366px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  font-weight: 900;
+}
+.Input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.line{
+  opacity: 0.5;
+  padding: 10px 20px;
+  width: 366px;
+  margin-left: -2px;
+  font-weight: 600;
+}
+input:hover{
+  border-color: #6161e5;
+}
+a#link:hover{
+  text-decoration:underline;
+}
+a#link:focus{
+  border-color: blue;
+}
+.LogIn:hover {
+  background-color: #257ef4;
+  color: white;
+} 
+.Create:hover{
+  background-color: #46b030;
+}

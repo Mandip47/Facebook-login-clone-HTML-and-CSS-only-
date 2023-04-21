@@ -1,0 +1,103 @@
+/* CSS for the Facebook login clone */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  position:relative;
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 30px;
+}
+
+#paragraph {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+      /* position: absolute;
+    margin-top: -284px; */
+  /* position: absolute; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#inputArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.Input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.LogIn {
+  background-color: #1877f2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.line{
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+.Create {
+  background-color: #42b72a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#link {
+  color: #1877f2;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
