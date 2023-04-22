@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@500&display=swap');
 html {
   height: 100%;
   width: 100%;
@@ -56,7 +57,10 @@ a#link{
   position: relative;
   left: 120px;
   text-decoration:none;
-  font-family: 'Kanit', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Carlito', sans-serif;
+  font-size:15px;
+  color: #1877f2;
 }
 /* button.Create{
       margin-left: 20px;
@@ -66,17 +70,18 @@ a#link{
     height: 35px;
 } */
 .Create {
+  font-size: inherit;
   background-color: #42b72a;
   color: #fff;
   margin-left:98px;
   margin-top: 2px;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: none;
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 700;
   width: 204px;
-  height: 44px;
+  height: 48px;
 }
 .container{
   /* display: flex; */
@@ -125,9 +130,38 @@ a#link:focus{
   color: white;
 } 
 .Create:hover{
-  background-color: #46b030;
+  background-color: #42B70A;
 }
 .Input:focus{
   outline:none;
   border-color:blue;
+}
+.f-end{
+    position: relative;
+    top: 34px;
+    left: 50px;
+    color: #1c1e21;
+    font-family: 'Carlito', sans-serif;
+    font-size: 14px;
+}
+.f-end a {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.f-end a:hover{
+  text-decoration: underline;
+}
+input::placeholder {
+    font: 17px/3 sans-serif;
+}
+input[type="password"]
+{
+    font-size:17px;
+}
+input[type="text"]
+{
+    font-size:17px;
 }
